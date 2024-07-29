@@ -1,0 +1,25 @@
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.personName,
+.personNumber {
+    display: flex;
+    gap: 5px;
+}
+
+.icon {
+    color: green;
+}
+
+.button {
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(191, 52, 54);
+    color: white;
+    /* Додатково, якщо хочете змінити колір тексту */
+}
